@@ -60,4 +60,5 @@ local sellingItem = exports['qb-input']:ShowInput({
   
 })
 TriggerServerEvent('sellitems',  sellingItem.amount)
+TriggerEvent('wais:addmissionxp:washmoney', 1) --added by pamela for wais battlepass
 end)
